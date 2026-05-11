@@ -3,7 +3,7 @@ on: push
 
 jobs:
   test:
-    runs-on: ubuntun-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Github Repository 불러오기
         uses: actions/checkout@v5
