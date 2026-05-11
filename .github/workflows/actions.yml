@@ -1,0 +1,10 @@
+#이름 짓기
+name: GitHub Actions 연습하기
+on: push
+
+jobs:
+  push-job:
+    runs-on: ubuntu-lateset # 우분투 최신 버전
+    steps:
+      -name: 첫 번째 작업
+      run: echo "첫 번째 작업 실행 중"
